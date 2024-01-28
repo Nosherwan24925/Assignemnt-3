@@ -23,3 +23,7 @@ int main()
 
 return 0;
 }
+void Door::unlock() {
+    isLocked = false;
+    cout << "Door is now unlocked.\n";
+}
