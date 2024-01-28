@@ -23,3 +23,6 @@ int main()
 
 return 0;
 }
+void Door::openDoor(){
+	 isOpen=true;
+}
