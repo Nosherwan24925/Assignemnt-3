@@ -17,12 +17,31 @@ bool isDoorOpen();
 bool isDoorLocked();
 };
 
+void Door::closeDoor(){
+ 	isOpen=false;
+}
+
+void Door::openDoor(){
+	 isOpen=true;
+}
+
+
+bool Door::isDoorLocked()
+{
+    return isLocked;
+}
+
+bool Door::isDoorOpen()
+{
+    return isOpen;
+}
+
+
 
 int main()
 {
 
 return 0;
 }
-void Door::closeDoor(){
- 	isOpen=false;
-}
+
+
