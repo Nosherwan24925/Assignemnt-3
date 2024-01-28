@@ -17,10 +17,17 @@ bool isDoorOpen();
 bool isDoorLocked();
 };
 
+
 bool Door::isDoorLocked()
 {
     return isLocked;
 }
+
+bool Door::isDoorOpen()
+{
+    return isOpen;
+}
+
 
 int main()
 {
