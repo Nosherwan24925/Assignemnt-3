@@ -41,13 +41,17 @@ void Door::lockDoor() {
     cout << "Door is now locked.\n";
 }
 
+void Door::unlock() {
+    isLocked = false;
+    cout << "Door is now unlocked.\n";
+}
+
 
 int main()
 {
 
 return 0;
 }
-
 
 
 
