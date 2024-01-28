@@ -36,6 +36,10 @@ bool Door::isDoorOpen()
     return isOpen;
 }
 
+void Door::lockDoor() {
+    isLocked = true;
+    cout << "Door is now locked.\n";
+}
 
 
 int main()
@@ -43,5 +47,8 @@ int main()
 
 return 0;
 }
+
+
+
 
 
