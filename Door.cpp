@@ -17,6 +17,11 @@ bool isDoorOpen();
 bool isDoorLocked();
 };
 
+bool Door::isDoorOpen()
+{
+    return isOpen;
+}
+
 
 int main()
 {
